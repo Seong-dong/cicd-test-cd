@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: cicd.inje-demo.com
+  - host: cicd.icurfer.com
     http:
       paths:
       - path: /
