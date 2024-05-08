@@ -16,5 +16,5 @@ spec:
         app: cicd-nginx
     spec:
       containers:
-      - name : nginx
+      - name : cicd-nginx-con
         image: seongdong/nginx-test:0.5

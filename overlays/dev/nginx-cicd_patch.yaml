@@ -15,4 +15,4 @@ spec:
         app: cicd-nginx
     spec:
       containers:
-      - name : nginx
+      - name : cicd-nginx-con
