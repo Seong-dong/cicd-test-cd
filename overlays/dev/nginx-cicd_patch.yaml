@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-dp-cicd
+  name: cicd-nginx-dp
   namespace: test
   labels:
-    app: nginx-dev
+    app: dev-nginx
 spec:
   selector:
     matchLabels:
-      app: nginx-cicd
+      app: cicd-nginx
   template:
     metadata:
       labels:
-        app: nginx-cicd
+        app: cicd-nginx
     spec:
       containers:
       - name : nginx
