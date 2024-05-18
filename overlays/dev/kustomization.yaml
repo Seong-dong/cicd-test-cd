@@ -3,8 +3,6 @@ kind: Kustomization
 images:
 - name: harbor.icurfer.com/library/nginx-test
   newTag: "0.1"
-- name: seongdong/nginx-test
-  newTag: "2.24"
 resources:
 - ../../base
 patchesStrategicMerge:
