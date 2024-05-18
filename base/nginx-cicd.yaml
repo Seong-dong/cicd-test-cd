@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name : cicd-nginx-con
-        image: seongdong/nginx-test:0.5
+        image: harbor.icurfer.com/library/nginx-test:0.1
